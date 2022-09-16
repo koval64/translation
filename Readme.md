@@ -59,7 +59,7 @@
 # użycie taga językowego z dopiskiem "_m" czyli maska
 # oznaczające które znaki zastąpić znakami z charsetu z podkreśleniem
 #
-# maskować można pojedyńcze wybrany litery np.:
+# maskować można również pojedyńcze wybrany litery np.:
 #
 # "pl":   "Anuluj",
 # "pl_m": " - - -"
@@ -90,7 +90,7 @@
 
 
 ```
-# Mnemonik "menu_opt"
+# Tag "menu_opt"
 # "menu_opt": "1"       # [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, < ]
 #
 # Znak "<" jest zamieniany na strzałkę, czyli znak powrotu z menu.
@@ -104,9 +104,9 @@
 
 
 ```
-# Mnemonik "comment": "tutaj se jakiś komentarz blebleblaba"
+# Tag "comment": "tutaj se jakiś komentarz blebleblaba"
 #
-# mnemoniki inne niż "menu_opt", "pl", "en", "common" i inne wymagane
+# tagi inne niż "menu_opt", "pl", "en", "common" i inne wymagane
 # wymienione powyżej są całkowicie ignorowane i mogą posłużyć jako komentarze.
 ```
 
@@ -116,7 +116,7 @@
 ### BUGS ###
 ############
 #
-# definiowanie mnemoników z tekstem o długości zerowej spowoduje błąd, np:
+# definiowanie tagów z tekstem o długości zerowej spowoduje błąd, np:
 #
 # "common": "",
 # "pl": "",
@@ -124,7 +124,7 @@
 # itp
 #
 # przykładowe ROZWIĄZANIE - jakikolwiek pojedynczy znak np spacja:
-# lub całkowite usunięcie mnemonika
+# lub całkowite usunięcie taga
 #
 # "common": " "
 #
