@@ -1,4 +1,5 @@
 
+```
 # "common"
 #
 # użycie taga "common" sprawia że tagi językowe są ignorowane
@@ -10,6 +11,7 @@
 # ...
 # 
 # zostaną całkowicie zignorowane.
+
 
 
 {
@@ -25,9 +27,9 @@
     ]
   }
 }
+```
 
-
-
+```
 #
 # używanie wersji językowej czyli "pl": "Anuluj", "en": "Cancel"
 #
@@ -44,8 +46,10 @@
     ]
   }
 }
+```
 
 
+```
 #
 # używanie "underline"
 #
@@ -81,9 +85,11 @@
     ]
   }
 }
+```
 
 
 
+```
 # Mnemonik "menu_opt"
 # "menu_opt": "1"       # [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, < ]
 #
@@ -93,15 +99,19 @@
 # Strzałka jest brana z normalnego charsetu
 # Cyfry są brane z charsetu +$80 ( czyli negatywu )
 #
+```
 
 
 
+```
 # Mnemonik "comment": "tutaj se jakiś komentarz blebleblaba"
 #
 # mnemoniki inne niż "menu_opt", "pl", "en", "common" i inne wymagane
 # wymienione powyżej są całkowicie ignorowane i mogą posłużyć jako komentarze.
+```
 
 
+```
 ############
 ### BUGS ###
 ############
@@ -118,6 +128,7 @@
 #
 # "common": " "
 #
+```
 
 
 
