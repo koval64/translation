@@ -1,7 +1,7 @@
 
 ```
 #
-# Using of language tags, i.e.: "pl": "cos tam", "en": "something":
+# Using of language tags ("pl", "en"):
 #
 
 {
@@ -21,7 +21,7 @@
 ```
 # Using tag "common".
 #
-# Use of "common" tag causes that language tags to be ignored,
+# Use of "common" tag causes language tags to be ignored,
 # so "pl" and "en" tags below will be ignored:
 #
 
@@ -61,6 +61,8 @@
 #
 # ATTENTION:
 #
+# Masking tag need to be the same length or less than language tag.
+#
 # Function doesn't have safety feature, so probably will crash 
 # if masking string will be longer than string to mask.
 #
@@ -98,10 +100,13 @@
 
 
 ```
-# Comment tags "comment": "some comment blablablabla"
+# Comment tags.
 #
 # Tags OTHER than "menu_opt", "pl", "en", "common" and other required
 # mentioned before are ignored so they can be used as comments.
+#
+# "comment": "some comment blablablabla"
+#
 ```
 
 
