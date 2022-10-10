@@ -19,18 +19,11 @@
 ```
 
 ```
-# "common"
+# Using tag "common".
 #
-# Use of "common" causes that language tags are ignored,
-# so "pl" and "en" below will be ignored:
+# Use of "common" tag causes that language tags to be ignored,
+# so "pl" and "en" tags below will be ignored:
 #
-# ...
-# "common": "some writting",
-# "pl": "Anuluj",
-# "en": "Cancel"
-# ...
-# 
-
 
 {
   "some informative name nowhere used":
@@ -56,15 +49,15 @@
 # "pl_m": "------"
 #
 # Using language tag with extension "_m" ( mask )
-# informs which chars replace with underline chars.
+# informs which chars need to be replaced with underline chars.
 #
-# You can mask also single chars i.e.:
+# You can also mask single chars i.e.:
 #
 # "pl":   "Anuluj",
 # "pl_m": " - - -"
 #
 # Chars "Auu" will be normal,
-# and "nlj" will be underscored,
+# char "nlj" will be underscored.
 #
 # ATTENTION:
 #
@@ -90,7 +83,8 @@
 
 
 ```
-# Tag "menu_opt"
+# Using tag "menu_opt"
+#
 # "menu_opt": "1"       # [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, < ]
 #
 # Char "<" is replaced with arrow one ( back from menu ).
@@ -104,10 +98,9 @@
 
 
 ```
-# Tag "comment": "some comment blablablabla"
+# Comment tags "comment": "some comment blablablabla"
 #
-# tagi inne niż "menu_opt", "pl", "en", "common" i inne wymagane
-# Tags other than "menu_opt", "pl", "en", "common" and other required
+# Tags OTHER than "menu_opt", "pl", "en", "common" and other required
 # mentioned before are ignored so they can be used as comments.
 ```
 
