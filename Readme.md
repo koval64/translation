@@ -32,7 +32,7 @@
     "array_label": "UPPERCASE_STRING_WITH_UNDERLINES_REQUIRED",
     "contents": [
       "id": "UPPERCASE_REQUIRED",
-      "common": "some writting"             <----- "common" tag
+      "common": "some writting",            <----- "common" tag
       "pl": "Anuluj",                       <----- will be ignored
       "en": "Cancel",                       <----- will be ignored
     ]
