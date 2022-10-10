@@ -90,7 +90,7 @@
 # "menu_opt": "1"       # [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, < ]
 #
 # Char "<" is replaced with arrow one ( back from menu ).
-# Option with "menu_opt" is inserted before text.
+# Option from "menu_opt" is inserted before text.
 #
 # Arrow is taken from normal charset.
 # Digits are taken from +$80 charset ( negative ).
